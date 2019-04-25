@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="wrap_content">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="@dimen/view_margin"
+        android:layout_marginTop="@dimen/view_margin"
+        android:src="@drawable/dv"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/view_margin"
+        android:layout_marginTop="@dimen/view_margin"
+        tools:text="@string/home"
+        android:textColor="@color/title_color"
+        android:textSize="@dimen/titile_size_fonts"
+        app:layout_constraintLeft_toRightOf="@id/iv"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_job"
+        android:layout_width="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/view_margin"
+        app:layout_constraintLeft_toRightOf="@id/iv"
+        app:layout_constraintTop_toBottomOf="@id/tv_name" />
+    <TextView
+        android:id="@+id/tv_data"
+        android:layout_marginTop="@dimen/view_margin"
+        android:layout_marginRight="@dimen/view_margin"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="wrap_content"
+        tools:text="@string/home"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_content"
+        app:layout_constraintLeft_toRightOf="@id/iv"
+        app:layout_constraintTop_toBottomOf="@id/rv_job"
+        android:layout_width="0dp"
+        android:layout_marginLeft="@dimen/view_margin"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:text="@string/home"
+        android:textSize="@dimen/content_fonts"
+        android:textColor="@color/content_color"
+        android:layout_marginTop="@dimen/view_margin"
+        android:layout_marginRight="@dimen/view_margin"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_iv"
+        app:layout_constraintTop_toBottomOf="@id/tv_content"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="@dimen/view_margin"
+        android:layout_marginLeft="@dimen/view_margin"
+        app:layout_constraintLeft_toRightOf="@id/iv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_marginTop="@dimen/view_margin"
+        app:layout_constraintLeft_toLeftOf="@id/rv_iv"
+        app:layout_constraintTop_toBottomOf="@id/rv_iv"
+        android:layout_width="wrap_content"
+        tools:text="12:42"
+        android:textColor="@color/content_color"
+        android:textSize="@dimen/small_fonts"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_star"
+        android:layout_marginTop="@dimen/view_margin"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rv_iv"
+        android:layout_marginRight="@dimen/view_margin"
+        android:layout_width="wrap_content"
+        tools:text="12"
+        android:textColor="@color/content_color"
+        android:textSize="@dimen/small_fonts"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/iv_star"
+        android:layout_marginRight="@dimen/view_margin"
+        app:layout_constraintRight_toLeftOf="@id/tv_star"
+        app:layout_constraintTop_toTopOf="@id/tv_star"
+        app:layout_constraintBottom_toBottomOf="@id/tv_star"
+        android:layout_width="20dp"
+        android:src="@drawable/star_normal"
+        android:layout_height="20dp" />
+    <View
+        android:id="@+id/fake_dervie"
+        android:layout_marginTop="@dimen/small_margin"
+        android:layout_width="match_parent"
+        android:background="@color/gry"
+        app:layout_constraintTop_toBottomOf="@id/iv_star"
+        android:layout_height="@dimen/view_margin"/>
+</android.support.constraint.ConstraintLayout>

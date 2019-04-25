@@ -1,0 +1,53 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <!-- ToolBar菜单样式 -->
+    <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <item name="actionMenuTextColor">@color/white</item> <!-- 菜单字体颜色-->
+        <item name="android:actionMenuTextAppearance">@style/ToolbarMenuTextSize</item><!-- 菜单文字尺寸-->
+    </style>
+    <!-- ToolBar文字尺寸 -->
+    <style name="ToolbarTextSize" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">@dimen/titile_size_fonts</item>
+    </style>
+    <!-- ToolBar菜单文字尺寸 -->
+    <style name="ToolbarMenuTextSize" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">@dimen/margin</item>
+    </style>
+
+
+    <!--没有选中的样式为了去除bottom动画-->
+    <style name="bottom_normal_text">
+        <item name="android:textColor">@color/font_hint</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <!--选中的样式为了去除bottom动画-->
+    <style name="bottom_selected_text">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+
+    <style name="MenuButtonsStyle">
+        <item name="fab_size">mini</item>
+        <item name="fab_showAnimation">@anim/jump_from_down</item>
+        <item name="fab_hideAnimation">@anim/jump_to_down</item>
+        <item name="fab_shadowColor">#444</item>
+        <item name="fab_colorNormal">#FFB805</item>
+        <item name="fab_colorPressed">#F2AB00</item>
+        <item name="fab_colorRipple">#D99200</item>
+    </style>
+
+
+
+
+
+</resources>

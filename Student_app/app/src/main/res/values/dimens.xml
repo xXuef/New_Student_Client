@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="margin">16dp</dimen>
+    <dimen name="margin_big">30dp</dimen>
+    <dimen name="view_margin">8dp</dimen>
+    <dimen name="toolbar_height">45dp</dimen>
+    <dimen name="small_margin">2dp</dimen>
+
+
+    <!--字体的-->
+    <dimen name="big_titile_size_fonts">22dp</dimen>
+    <dimen name="titile_size_fonts">18dp</dimen>
+    <dimen name="content_fonts">15dp</dimen>
+    <dimen name="small_fonts">12dp</dimen>
+
+</resources>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Student_app</string>
+    <string name="input_admin">请输入账号/用户名</string>
+    <string name="input_pw">请输入密码</string>
+    <string name="input_eero">用户名/账号或密码错误</string>
+    <string name="pw_forget">忘记密码</string>
+    <string name="adress">通讯录</string>
+    <string name="home">首页</string>
+    <string name="found">发现</string>
+    <string name="search">搜索联系人</string>
+    <string name="common">常用</string>
+    <string name="all">全部</string>
+    <string name="pleaseInput">请输入发表内容</string>
+</resources>

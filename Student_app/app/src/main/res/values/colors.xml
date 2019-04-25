@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+    <color name="gry">#D5E8FA</color>
+    <color name="transparent">#00FF00FF</color>
+    <color name="title_color">#333333</color>
+    <color name="content_color">#666666</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <color name="activity_bg">#EEEEEE</color>
+    <color name="toolbar_color">#1E78E7</color>
+    <color name="god_blue">#2E8AE6</color>
+
+    <!--自定义的颜色部分为了去除bottom动画-->
+    <color name="font_hint">#989898</color>
+</resources>
